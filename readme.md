@@ -42,9 +42,9 @@
 
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/09.png)
 
-11. Descarguen la versión de 64 bits y sigan los pasos de instalación.
+11. Descarguen la versión de 64 bits.
 
-![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/10.png)
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/24.png)
 
 12. Ejecuten el putty.exe y pongan el ip que les envió DO. Ponganle un nombre a la sesión y guardenla.
 
