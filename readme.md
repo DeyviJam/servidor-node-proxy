@@ -145,3 +145,15 @@ servidor.listen(8002, ()=> console.log("Servidor ejecutándose en el puerto 8002
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/20.png)
 
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/21.png)
+
+## Configuración de subdominios
+
+Trabajo mis dominios con GoDaddy.com. Ustedes pueden tener sus dominios con GoDaddy o donde les parezca mejor.
+
+Cualquiera de los proveedores de dominios les permite administrar los DNS del dominio.
+
+En mi caso agregué los siguientes registros para que apunten al ip que me dio DO.
+
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/22.png)
+
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/23.png)
