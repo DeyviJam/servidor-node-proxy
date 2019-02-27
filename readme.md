@@ -1,4 +1,4 @@
-# Node con Proxy Reverso
+# NodeJS con Proxy Reverso
 
 > Se necesitará una tarjeta de crédito
 
