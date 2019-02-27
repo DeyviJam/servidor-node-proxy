@@ -50,7 +50,7 @@
 
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/11.png)
 
-13. Luego denle lci para conectarse al servidor.
+13. Luego denle clic para conectarse al servidor.
 
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/12.png)
 
