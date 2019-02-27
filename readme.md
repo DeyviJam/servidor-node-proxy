@@ -81,8 +81,8 @@
 3. Instalar el proxy "redbird" ejecutando "npm i --save redbird"
 
 > Crearé dos servidores de NodeJS
-> Uno usará el subdominio test-node.tibajodemanda.com
-> El otro usará el subdominio node-test.tibajodemanda.com
+> Uno usará el subdominio test-node.tibajodemanda.com.
+> El otro usará el subdominio node-test.tibajodemanda.com.
 > Ustedes deben usar sus propios subdominios o dominios.
 
 4. Crear el archivo proxy.js usando "nano proxy.js". Si no está instalado el programa "nano", ejecutar "apt-get install nano".
