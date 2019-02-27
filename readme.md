@@ -97,7 +97,7 @@ proxy.register("node-test.tibajodemanda.com", "http://127.0.0.1:8002");
 
 6. ctrl+x para guardar el archivo y cerrar.
 
-7. Crear el primer servidor llamado "server01.js" el puerto 8001 usando "nano server01.js". Pegar el siguiente código.
+7. Crear el primer servidor llamado "server01.js" en el puerto 8001 usando "nano server01.js". Pegar el siguiente código.
 
 ```javascript
 const http = require("http")
@@ -112,7 +112,7 @@ servidor.listen(8001, ()=> console.log("Servidor ejecutándose en el puerto 8001
 
 8. ctrl+x para guardar el archivo y cerrar.
 
-9. Crear el segundo servidor llamado "server02.js" el puerto 8002 usando "nano server02.js". Pegar el siguiente código.
+9. Crear el segundo servidor llamado "server02.js" en el puerto 8002 usando "nano server02.js". Pegar el siguiente código.
 
 ```javascript
 const http = require("http")
