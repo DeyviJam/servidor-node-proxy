@@ -134,7 +134,9 @@ servidor.listen(8002, ()=> console.log("Servidor ejecutándose en el puerto 8002
 	- pm2 start server01.js -n server01
 	- pm2 start server02.js -n server02
 
-13. Para que todo se ejecute cuando se reinicie el servidor de DO, se debe ejecutar también: "pm2 save".
+13. Para que todo se ejecute cuando se reinicie el servidor de DO, se debe ejecutar también: 
+* pm2 save
+* pm2 startup
 
 14. Ejecuten el siguiente comando para ver que todo esté correcto: "pm2 list"
 
