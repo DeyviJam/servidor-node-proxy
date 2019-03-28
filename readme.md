@@ -103,7 +103,7 @@ proxy.register("node-test.tibajodemanda.com", "http://127.0.0.1:8002");
 const http = require("http")
 
 const servidor = http.createServer((req, res) => {
-	res.writeHead(200, {"content-type": "text/plain"})
+	res.writeHead(200, {"content-type": "text/plain; charset=utf-8"})
 	res.end("Servidor en test-node.tibajodemanda.com, puerto 8001")
 })
 
@@ -118,7 +118,7 @@ servidor.listen(8001, ()=> console.log("Servidor ejecutándose en el puerto 8001
 const http = require("http")
 
 const servidor = http.createServer((req, res) => {
-	res.writeHead(200, {"content-type": "text/plain"})
+	res.writeHead(200, {"content-type": "text/plain; charset=utf-8"})
 	res.end("Servidor en node-test.tibajodemanda.com, puerto 8002")
 })
 
