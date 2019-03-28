@@ -164,6 +164,9 @@ apt-get install certbot
 
 ## Instalación de certificados
 
+Antes que nada deben detener el proxy:
+pm2 stop proxy
+
 certbot certonly --preferred-challenges http-01 -d test-node.tibajodemanda.com
 
 certbot certonly --preferred-challenges http-01 -d node-test.tibajodemanda.com
