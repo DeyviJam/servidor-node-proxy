@@ -170,6 +170,6 @@ certbot certonly --preferred-challenges http-01 -d node-test.tibajodemanda.com
 
 En ambas instalaciones
 
-![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/25.png)
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/25.PNG)
 
-![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/26.png)
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/26.PNG)
