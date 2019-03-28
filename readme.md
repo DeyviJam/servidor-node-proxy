@@ -170,6 +170,14 @@ certbot certonly --preferred-challenges http-01 -d node-test.tibajodemanda.com
 
 En ambas instalaciones
 
+Elegir la opción 1 (standalone)
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/25.PNG)
 
+Ingresen un correo para recibir notificaciones
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/26.PNG)
+
+Acepten los términos de LetsEncrypt y que les envíen correos (opcional)
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/27.PNG)
+
+Con esto ya instalaron los certificados
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/28.PNG)
