@@ -184,3 +184,38 @@ Acepten los términos de LetsEncrypt y que les envíen correos (opcional)
 
 Con esto ya instalaron los certificados
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/28.PNG)
+
+## Modificación de proxy.js para que acepte SSL y HTTP2
+
+```javascript
+const proxy = require('redbird')({
+        port: 80,
+        letsencrypt: {
+                path: "/etc/letsencrypt/live",
+                port: 9999
+        },
+        ssl: {
+                http2: true,
+                port: 443
+        }
+})
+proxy.register("test-node.tibajodemanda.com", "http://127.0.0.1:8001",{
+  ssl: {
+    letsencrypt: {
+      email: 'sergiohidalgocaceres@gmail.com',
+      production: true
+    }
+  }
+});
+proxy.register("node-test.tibajodemanda.com", "http://127.0.0.1:8002",{
+  ssl: {
+    letsencrypt: {
+      email: 'sergiohidalgocaceres@gmail.com',
+      production: true
+    }
+  }
+});
+```
+
+Finalmente inicien el proxy: 
+pm2 start proxy
