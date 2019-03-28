@@ -157,3 +157,19 @@ En mi caso agregué los siguientes registros para que apunten al ip que me dio D
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/22.png)
 
 ![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/23.png)
+
+## Instalación de LetsEncrypt
+
+apt-get install certbot
+
+## Instalación de certificados
+
+certbot certonly --preferred-challenges http-01 -d test-node.tibajodemanda.com
+
+certbot certonly --preferred-challenges http-01 -d node-test.tibajodemanda.com
+
+En ambas instalaciones
+
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/25.png)
+
+![](https://raw.githubusercontent.com/sergiohidalgocaceres/servidor-node-proxy/master/assets/img/26.png)
